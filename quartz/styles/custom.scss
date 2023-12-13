@@ -1,0 +1,16 @@
+@use "./base.scss";
+
+// put your custom CSS here!
+html { font-size: 115%; } 
+
+article {
+  p {
+    margin-bottom: 0.5rem;
+  }
+  li {
+    margin: 0 0.25rem 0 0.25rem;
+  }
+  ol, ul {
+    margin-top: 0.25rem;
+  }
+}
